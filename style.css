@@ -53,6 +53,16 @@ ul li {
     padding: 20px; 
 }
 
+ul li:hover {
+    background-color: rgb(32, 87, 176);
+}
+ul li a{
+    color: white;
+    
+    /*color: inherit;*/
+}
+
+
 /*--------SECTION1----------*/
 
 .section1 {
@@ -143,6 +153,8 @@ h1 {
     line-height: 28px; 
     padding: 10px 20px;
     font-weight: 400;
+    transition-timing-function: ease;
+    transition: 1s;
 }
 
 .grid2 a i {
@@ -150,6 +162,10 @@ h1 {
     line-height: 20px; 
     font-weight: 900;
     margin: 0 0 0 5px; 
+}
+
+.grid2 a:hover {
+    background-color: rgba(190,49,68);
 }
 
 /*--------SECTION3----------*/
@@ -203,6 +219,16 @@ h1 {
     font-size: 22.272px;
     line-height: 22.272px; 
     text-align: center; 
+}
+
+.grid1 a {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.grid1 a:hover {
+    top: 10px;
 }
 
 /*--------FOOTER----------*/
